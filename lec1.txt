@@ -1,0 +1,24 @@
+LECTURE 1:
+type of knowledge:
+1. declarative knowledge (statement of fact) (like the end result or declaration of a variable)
+  eg. someone will be selected for the job role and paid.
+2. imperative knowledge (recipe or algorithm or "how to?") (how to get the output from the variable : steps)
+  eg. 1. students sign up for the placement drive
+      2. give test
+      3. give interview
+      4. company chooses the candidate with highest score in all tests and interviews
+Aspects of language:
+Syntax Analysis : checks the structure of the statement
+eg. 
+English : cat dog boy -> invalid syntax (noun noun noun).
+          boy hugs dog -> valid syntax (noun verb noun).
+
+Programming Language : "hi"5 -> invalid syntax
+                       3.2*5 -> syntactically valid
+
+Static Sematics : syntactically valid strings have meaning.
+                  a sentence could be syntactically correct but have sematic error.
+eg.
+English : "I are hungry" -> syntactically valid but static sematic error
+Programming Language : 3.2*5 -> syntactically valid
+                       3 + "hi" ->static sematic error
