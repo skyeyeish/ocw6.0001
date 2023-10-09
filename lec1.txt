@@ -1,5 +1,6 @@
-LECTURE 1:
-type of knowledge:
+LECTURE 1: WHAT IS COMPUTATION
+
+Type of knowledge:
 1. declarative knowledge (statement of fact) (like the end result or declaration of a variable)
   eg. someone will be selected for the job role and paid.
 2. imperative knowledge (recipe or algorithm or "how to?") (how to get the output from the variable : steps)
@@ -7,6 +8,7 @@ type of knowledge:
       2. give test
       3. give interview
       4. company chooses the candidate with highest score in all tests and interviews
+------------------------------------------------------------------------------------------------------
 Aspects of language:
 Syntax Analysis : checks the structure of the statement
 eg. 
@@ -22,3 +24,19 @@ eg.
 English : "I are hungry" -> syntactically valid but static sematic error
 Programming Language : 3.2*5 -> syntactically valid
                        3 + "hi" ->static sematic error
+Sematics: semantics is the meaning associated with a syntactically correct sequence of symbols with no            static semantic errors
+eg.
+English : can have many meanings "Flying planes can be dangerous"
+Programming Language : have only one meaning but may not be what programmer intended
+-------------------------------------------------------------------------------------------------------
+WHERE THINGS GO WRONG
+1. syntactic errors
+  ◦ common and easily caught
+2. static semantic errors
+  ◦ some languages check for these before running program
+  ◦ can cause unpredictable behavior
+3. no semantic errors but different meaning than what programmer intended
+  ◦ program crashes, stops running
+  ◦ program runs forever
+  ◦ program gives an answer but different than expected
+-------------------------------------------------------------------------------------------------------
